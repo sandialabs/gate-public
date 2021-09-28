@@ -1,0 +1,20 @@
+# Ignore the build and install directories
+/install
+/build
+
+# Ignore any build objects
+*.bin
+*.dll
+*.so
+*.a
+*.o
+
+# Matlab temp files
+*.asv
+
+# Ignore visual studio specific settings
+/.vs
+
+# Ignore csv files
+*.csv
+

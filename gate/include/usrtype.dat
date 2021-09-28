@@ -1,0 +1,5 @@
+#pragma once
+#ifdef __INTELLISENSE__
+void __syncthreads();  //fake prototype for intellisense to not be dumb
+...
+#endif
